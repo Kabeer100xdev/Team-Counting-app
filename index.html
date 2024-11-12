@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="parent">
+      <div class="container">
+        <div class="section-1">
+          <h3>TEAM 1</h3>
+          <div class="counter">
+            <p id="redcounter1">0</p>
+          </div>
+          <div class="increment-buttons">
+            <button onclick="Src1increment1()">+1</button>
+            <button onclick="Src1increment2()">+2</button>
+            <button onclick="Src1increment3()">+3</button>
+          </div>
+        </div>
+        <div class="middle-part">
+          <button id="reset-btn" onclick="resetscore()">Reset</button>
+        </div>
+        <div class="section-2">
+          <h3>TEAM 2</h3>
+          <div class="counter">
+            <p id="redcounter2">0</p>
+          </div>
+          <div class="increment-buttons">
+            <button onclick="Src2increment1()">+1</button>
+            <button onclick="Src2increment2()">+2</button>
+            <button onclick="Src2increment3()">+3</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      &copy; 2024 Scrimba. Passenger Counter app project by Matthew.
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
